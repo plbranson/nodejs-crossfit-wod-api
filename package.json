@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-crossfit-wod-api",
+  "version": "1.0.0",
+  "description": "ExpressJS CrossFit Workout of the Day API",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plbranson/nodejs-crossfit-wod-api.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "javascript"
+  ],
+  "author": "Patrick L. Branson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/plbranson/nodejs-crossfit-wod-api/issues"
+  },
+  "homepage": "https://github.com/plbranson/nodejs-crossfit-wod-api#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
